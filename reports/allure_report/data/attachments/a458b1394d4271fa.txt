@@ -1,9 +1,0 @@
-[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('id', 'user-name')
-[32mINFO    [0m BasePage:base_page.py:31 输入文本 'standard_user' 到元素: ('id', 'user-name')
-[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('id', 'password')
-[32mINFO    [0m BasePage:base_page.py:31 输入文本 'wrong_password' 到元素: ('id', 'password')
-[32mINFO    [0m BasePage:base_page.py:25 点击元素: ('id', 'login-button')
-[32mINFO    [0m test_login:test_login.py:25 使用账号 'standard_user' 尝试登录
-[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('xpath', "//h3[@data-test='error']")
-[32mINFO    [0m test_login:test_login.py:40 ❌ 登录失败，错误消息: Epic sadface: Username and password do not match any user in this service
-[32mINFO    [0m conftest:conftest.py:30 清理 Session 状态（Cookies 清除，页面刷新）

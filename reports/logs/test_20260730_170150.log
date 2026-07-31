@@ -1,5 +1,0 @@
-2026-07-30 17:01:51,204 - conftest - INFO - 启动 Edge 浏览器（Session 级别）
-2026-07-30 17:02:03,357 - conftest - INFO - 访问首页: https://www.saucedemo.com/
-2026-07-30 17:02:05,258 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
-2026-07-30 17:02:15,980 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
-2026-07-30 17:02:15,984 - conftest - INFO - 关闭浏览器
