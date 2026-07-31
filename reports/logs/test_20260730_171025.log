@@ -1,0 +1,40 @@
+2026-07-30 17:10:25,563 - conftest - INFO - 启动 Edge 浏览器（Session 级别）
+2026-07-30 17:10:27,948 - conftest - INFO - 访问首页: https://www.saucedemo.com/
+2026-07-30 17:10:27,951 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:10:28,059 - BasePage - INFO - 输入文本 'standard_user' 到元素: ('id', 'user-name')
+2026-07-30 17:10:28,060 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:10:28,124 - BasePage - INFO - 输入文本 'secret_sauce' 到元素: ('id', 'password')
+2026-07-30 17:10:28,209 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:10:28,210 - test_login - INFO - 使用账号 'standard_user' 尝试登录
+2026-07-30 17:10:28,211 - BasePage - INFO - 查找元素: ('class name', 'title')
+2026-07-30 17:10:28,229 - BasePage - INFO - 查找元素: ('class name', 'shopping_cart_link')
+2026-07-30 17:10:28,248 - test_login - INFO - ✅ 登录成功: standard_user
+2026-07-30 17:10:28,529 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
+2026-07-30 17:10:28,542 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:10:28,620 - BasePage - INFO - 输入文本 'standard_user' 到元素: ('id', 'user-name')
+2026-07-30 17:10:28,620 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:10:28,673 - BasePage - INFO - 输入文本 'wrong_password' 到元素: ('id', 'password')
+2026-07-30 17:10:28,724 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:10:28,725 - test_login - INFO - 使用账号 'standard_user' 尝试登录
+2026-07-30 17:10:28,725 - BasePage - INFO - 查找元素: ('xpath', "//h3[@data-test='error']")
+2026-07-30 17:10:28,742 - test_login - INFO - ❌ 登录失败，错误消息: Epic sadface: Username and password do not match any user in this service
+2026-07-30 17:10:28,909 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
+2026-07-30 17:10:28,915 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:10:29,040 - BasePage - INFO - 输入文本 'standard_user' 到元素: ('id', 'user-name')
+2026-07-30 17:10:29,040 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:10:29,107 - BasePage - INFO - 输入文本 '' 到元素: ('id', 'password')
+2026-07-30 17:10:29,176 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:10:29,177 - test_login - INFO - 使用账号 'standard_user' 尝试登录
+2026-07-30 17:10:29,182 - BasePage - INFO - 查找元素: ('xpath', "//h3[@data-test='error']")
+2026-07-30 17:10:29,214 - test_login - INFO - ❌ 登录失败，错误消息: Epic sadface: Password is required
+2026-07-30 17:10:29,372 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
+2026-07-30 17:10:29,397 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:10:29,475 - BasePage - INFO - 输入文本 '' 到元素: ('id', 'user-name')
+2026-07-30 17:10:29,476 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:10:29,585 - BasePage - INFO - 输入文本 'secret_sauce' 到元素: ('id', 'password')
+2026-07-30 17:10:29,643 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:10:29,643 - test_login - INFO - 使用账号 '' 尝试登录
+2026-07-30 17:10:29,644 - BasePage - INFO - 查找元素: ('xpath', "//h3[@data-test='error']")
+2026-07-30 17:10:29,658 - test_login - INFO - ❌ 登录失败，错误消息: Epic sadface: Username is required
+2026-07-30 17:10:29,827 - conftest - INFO - 清理 Session 状态（Cookies 清除，页面刷新）
+2026-07-30 17:10:29,830 - conftest - INFO - 关闭浏览器

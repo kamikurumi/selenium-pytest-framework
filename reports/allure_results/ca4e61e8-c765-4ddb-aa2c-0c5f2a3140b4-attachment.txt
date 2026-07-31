@@ -1,0 +1,11 @@
+[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('id', 'user-name')
+[32mINFO    [0m BasePage:base_page.py:31 输入文本 'standard_user' 到元素: ('id', 'user-name')
+[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('id', 'password')
+[32mINFO    [0m BasePage:base_page.py:31 输入文本 'secret_sauce' 到元素: ('id', 'password')
+[32mINFO    [0m BasePage:base_page.py:25 点击元素: ('id', 'login-button')
+[32mINFO    [0m test_cart:test_cart.py:25 登录成功
+[32mINFO    [0m BasePage:base_page.py:15 查找元素: ('class name', 'shopping_cart_link')
+[32mINFO    [0m test_cart:test_cart.py:30 进入商品列表页
+[32mINFO    [0m test_cart:test_cart.py:60 预期的异常发生，商品 'Non-Existent Item' 不存在
+[32mINFO    [0m conftest:conftest.py:30 清理 Session 状态（Cookies 清除，页面刷新）
+[32mINFO    [0m conftest:conftest.py:20 关闭浏览器

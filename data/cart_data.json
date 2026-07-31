@@ -1,0 +1,18 @@
+[
+    {
+        "scenario": "multiple_normal_items",
+        "items": [
+            {"name": "Sauce Labs Backpack", "expected_price": "$29.99"},
+            {"name": "Sauce Labs Bike Light", "expected_price": "$9.99"},
+            {"name": "Sauce Labs Bolt T-Shirt", "expected_price": "$15.99"}
+        ],
+        "should_succeed": true
+    },
+    {
+        "scenario": "one_invalid_item",
+        "items": [
+            {"name": "Non-Existent Item", "expected_price": null}
+        ],
+        "should_succeed": false
+    }
+]

@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","301","登录测试: standard_user - 预期True","tests","2026-07-30","passed","2026-07-30","TestLogin","test_login","",""
+"","203","登录测试: standard_user - 预期False","tests","2026-07-30","passed","2026-07-30","TestLogin","test_login","",""
+"","302","登录测试: standard_user - 预期False","tests","2026-07-30","passed","2026-07-30","TestLogin","test_login","",""
+"","1131","批量添加商品测试: multiple_normal_items","tests","2026-07-30","passed","2026-07-30","TestCart","test_cart","",""
+"","263","登录测试:  - 预期False","tests","2026-07-30","passed","2026-07-30","TestLogin","test_login","",""
+"","10356","批量添加商品测试: one_invalid_item","tests","2026-07-30","passed","2026-07-30","TestCart","test_cart","",""

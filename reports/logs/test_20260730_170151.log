@@ -1,0 +1,31 @@
+2026-07-30 17:02:03,361 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:02:03,484 - BasePage - INFO - 输入文本 'standard_user' 到元素: ('id', 'user-name')
+2026-07-30 17:02:03,485 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:02:03,563 - BasePage - INFO - 输入文本 'secret_sauce' 到元素: ('id', 'password')
+2026-07-30 17:02:03,669 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:02:03,671 - test_cart - INFO - 登录成功
+2026-07-30 17:02:03,671 - BasePage - INFO - 查找元素: ('class name', 'shopping_cart_link')
+2026-07-30 17:02:03,696 - test_cart - INFO - 进入商品列表页
+2026-07-30 17:02:03,696 - BasePage - INFO - 查找元素: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//div[@class='inventory_item_price']")
+2026-07-30 17:02:03,789 - BasePage - INFO - 点击元素: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']")
+2026-07-30 17:02:03,789 - test_cart - INFO - 已添加商品: Sauce Labs Backpack
+2026-07-30 17:02:03,792 - BasePage - INFO - 查找元素: ('xpath', "//div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item']//div[@class='inventory_item_price']")
+2026-07-30 17:02:03,977 - BasePage - INFO - 点击元素: ('xpath', "//div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']")
+2026-07-30 17:02:03,977 - test_cart - INFO - 已添加商品: Sauce Labs Bike Light
+2026-07-30 17:02:03,977 - BasePage - INFO - 查找元素: ('xpath', "//div[text()='Sauce Labs Bolt T-Shirt']/ancestor::div[@class='inventory_item']//div[@class='inventory_item_price']")
+2026-07-30 17:02:04,125 - BasePage - INFO - 点击元素: ('xpath', "//div[text()='Sauce Labs Bolt T-Shirt']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']")
+2026-07-30 17:02:04,126 - test_cart - INFO - 已添加商品: Sauce Labs Bolt T-Shirt
+2026-07-30 17:02:04,195 - BasePage - INFO - 点击元素: ('class name', 'shopping_cart_link')
+2026-07-30 17:02:04,195 - BasePage - INFO - 查找多个元素: ('class name', 'cart_item')
+2026-07-30 17:02:04,213 - BasePage - INFO - 查找多个元素: ('class name', 'cart_item')
+2026-07-30 17:02:04,343 - BasePage - INFO - 查找多个元素: ('class name', 'cart_item')
+2026-07-30 17:02:04,488 - test_cart - INFO - 验证通过，购物车共 3 件商品
+2026-07-30 17:02:05,264 - BasePage - INFO - 查找元素: ('id', 'user-name')
+2026-07-30 17:02:05,370 - BasePage - INFO - 输入文本 'standard_user' 到元素: ('id', 'user-name')
+2026-07-30 17:02:05,371 - BasePage - INFO - 查找元素: ('id', 'password')
+2026-07-30 17:02:05,462 - BasePage - INFO - 输入文本 'secret_sauce' 到元素: ('id', 'password')
+2026-07-30 17:02:05,512 - BasePage - INFO - 点击元素: ('id', 'login-button')
+2026-07-30 17:02:05,512 - test_cart - INFO - 登录成功
+2026-07-30 17:02:05,513 - BasePage - INFO - 查找元素: ('class name', 'shopping_cart_link')
+2026-07-30 17:02:05,580 - test_cart - INFO - 进入商品列表页
+2026-07-30 17:02:15,618 - test_cart - INFO - 预期的异常发生，商品 'Non-Existent Item' 不存在
