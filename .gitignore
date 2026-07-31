@@ -1,0 +1,27 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 测试报告和日志
+reports/
+.allure/
+*.log
+
+# IDE 配置（PyCharm）
+.idea/
+.vscode/
+*.iml
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 临时文件
+*.tmp
+*.swp
+.DS_Store
+
+# 驱动文件（如果需要，可自行保留）
+# msedgedriver.exe
